@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-07T07:42:26Z" name="Suite" finished-at="2021-07-07T07:43:19Z" duration-ms="53681">
+    <groups>
+    </groups>
+    <test started-at="2021-07-07T07:42:26Z" name="Validating the title in page" finished-at="2021-07-07T07:43:11Z" duration-ms="45328">
+      <class name="EtoE.ValidateTitle">
+        <test-method is-config="true" signature="initilize()[pri:0, instance:EtoE.ValidateTitle@27953a83]" started-at="2021-07-07T13:12:26Z" name="initilize" finished-at="2021-07-07T13:13:00Z" duration-ms="34085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method signature="basePageNavigation()[pri:0, instance:EtoE.ValidateTitle@27953a83]" started-at="2021-07-07T13:13:00Z" name="basePageNavigation" finished-at="2021-07-07T13:13:02Z" duration-ms="2521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:EtoE.ValidateTitle@27953a83]" started-at="2021-07-07T13:13:03Z" name="teardown" finished-at="2021-07-07T13:13:11Z" duration-ms="8059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- EtoE.ValidateTitle -->
+    </test> <!-- Validating the title in page -->
+    <test started-at="2021-07-07T07:42:26Z" name="validating the navigaton bar" finished-at="2021-07-07T07:43:14Z" duration-ms="48388">
+      <class name="EtoE.ValidateNavigationBar">
+        <test-method is-config="true" signature="initilize()[pri:0, instance:EtoE.ValidateNavigationBar@5ad10c1a]" started-at="2021-07-07T13:12:26Z" name="initilize" finished-at="2021-07-07T13:13:00Z" duration-ms="34104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method signature="basePageNavigation()[pri:0, instance:EtoE.ValidateNavigationBar@5ad10c1a]" started-at="2021-07-07T13:13:00Z" name="basePageNavigation" finished-at="2021-07-07T13:13:04Z" duration-ms="3834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:EtoE.ValidateNavigationBar@5ad10c1a]" started-at="2021-07-07T13:13:04Z" name="teardown" finished-at="2021-07-07T13:13:14Z" duration-ms="10448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- EtoE.ValidateNavigationBar -->
+    </test> <!-- validating the navigaton bar -->
+    <test started-at="2021-07-07T07:42:26Z" name="HomePage" finished-at="2021-07-07T07:43:19Z" duration-ms="53681">
+      <class name="EtoE.HomePage">
+        <test-method is-config="true" signature="initilize()[pri:0, instance:EtoE.HomePage@5b057c8c]" started-at="2021-07-07T13:12:26Z" name="initilize" finished-at="2021-07-07T13:12:34Z" duration-ms="8111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:EtoE.HomePage@5b057c8c]" started-at="2021-07-07T13:12:34Z" name="basePageNavigation" data-provider="getData" finished-at="2021-07-07T13:13:13Z" duration-ms="39320" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123698]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NonRestricted_USEr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:EtoE.HomePage@5b057c8c]" started-at="2021-07-07T13:13:13Z" name="basePageNavigation" data-provider="getData" finished-at="2021-07-07T13:13:18Z" duration-ms="5025" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3693859]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted_USEr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:EtoE.HomePage@5b057c8c]" started-at="2021-07-07T13:13:18Z" name="teardown" finished-at="2021-07-07T13:13:19Z" duration-ms="1213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- EtoE.HomePage -->
+    </test> <!-- HomePage -->
+  </suite> <!-- Suite -->
+</testng-results>

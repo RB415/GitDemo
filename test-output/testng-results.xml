@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-07T07:14:51Z" name="Suite" finished-at="2021-07-07T07:16:03Z" duration-ms="72270">
+    <groups>
+    </groups>
+    <test started-at="2021-07-07T07:14:51Z" name="validating the navigaton bar" finished-at="2021-07-07T07:15:55Z" duration-ms="64557">
+      <class name="EtoE.ValidateNavigationBar">
+        <test-method is-config="true" signature="initilize()[pri:0, instance:EtoE.ValidateNavigationBar@3f28bd56]" started-at="2021-07-07T12:44:51Z" name="initilize" finished-at="2021-07-07T12:45:41Z" duration-ms="49721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method signature="basePageNavigation()[pri:0, instance:EtoE.ValidateNavigationBar@3f28bd56]" started-at="2021-07-07T12:45:41Z" name="basePageNavigation" finished-at="2021-07-07T12:45:41Z" duration-ms="552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:EtoE.ValidateNavigationBar@3f28bd56]" started-at="2021-07-07T12:45:41Z" name="teardown" finished-at="2021-07-07T12:45:55Z" duration-ms="14133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- EtoE.ValidateNavigationBar -->
+    </test> <!-- validating the navigaton bar -->
+    <test started-at="2021-07-07T07:14:51Z" name="Validating the title in page" finished-at="2021-07-07T07:15:58Z" duration-ms="67501">
+      <class name="EtoE.ValidateTitle">
+        <test-method is-config="true" signature="initilize()[pri:0, instance:EtoE.ValidateTitle@83298d7]" started-at="2021-07-07T12:44:51Z" name="initilize" finished-at="2021-07-07T12:45:40Z" duration-ms="49487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method signature="basePageNavigation()[pri:0, instance:EtoE.ValidateTitle@83298d7]" started-at="2021-07-07T12:45:40Z" name="basePageNavigation" finished-at="2021-07-07T12:45:41Z" duration-ms="701" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [FEATURED COU123RSES] but found [FEATURED COURSES]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [FEATURED COU123RSES] but found [FEATURED COURSES]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at EtoE.ValidateTitle.basePageNavigation(ValidateTitle.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:EtoE.ValidateTitle@83298d7]" started-at="2021-07-07T12:45:48Z" name="teardown" finished-at="2021-07-07T12:45:58Z" duration-ms="10193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- EtoE.ValidateTitle -->
+    </test> <!-- Validating the title in page -->
+    <test started-at="2021-07-07T07:14:51Z" name="HomePage" finished-at="2021-07-07T07:16:03Z" duration-ms="72270">
+      <class name="EtoE.HomePage">
+        <test-method is-config="true" signature="initilize()[pri:0, instance:EtoE.HomePage@34625ccd]" started-at="2021-07-07T12:44:51Z" name="initilize" finished-at="2021-07-07T12:45:07Z" duration-ms="15598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:EtoE.HomePage@34625ccd]" started-at="2021-07-07T12:45:07Z" name="basePageNavigation" data-provider="getData" finished-at="2021-07-07T12:45:57Z" duration-ms="50672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123698]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NonRestricted_USEr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:EtoE.HomePage@34625ccd]" started-at="2021-07-07T12:45:57Z" name="basePageNavigation" data-provider="getData" finished-at="2021-07-07T12:46:02Z" duration-ms="5078" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3693859]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted_USEr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:EtoE.HomePage@34625ccd]" started-at="2021-07-07T12:46:02Z" name="teardown" finished-at="2021-07-07T12:46:03Z" duration-ms="632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- EtoE.HomePage -->
+    </test> <!-- HomePage -->
+  </suite> <!-- Suite -->
+</testng-results>

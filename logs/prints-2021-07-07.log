@@ -1,0 +1,7 @@
+13:10:28.046 [TestNG] INFO  EtoE.ValidateTitle - landed on homepage
+13:10:33.374 [TestNG] INFO  EtoE.ValidateTitle - Navigation Bar is displayed
+13:10:41.326 [TestNG] INFO  EtoE.ValidateTitle - NonRestricted_USEr
+13:10:46.926 [TestNG] INFO  EtoE.ValidateTitle - Restricted_USEr
+13:12:32.660 [TestNG] INFO  EtoE.ValidateTitle - chrome is opened sucessfully
+13:13:00.403 [TestNG] INFO  EtoE.ValidateTitle - landed on homepage
+13:13:02.928 [TestNG] INFO  EtoE.ValidateTitle - Successfully validated the title

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="EtoE.Listener"/>
+  </listeners>
+  <test parallel="tests" name="Validating the title in page(failed)">
+    <classes>
+      <class name="EtoE.ValidateNavigationBar">
+        <methods>
+          <include name="teardown"/>
+          <include name="initilize"/>
+        </methods>
+      </class> <!-- EtoE.ValidateNavigationBar -->
+      <class name="EtoE.HomePage">
+        <methods>
+          <include name="teardown"/>
+          <include name="initilize"/>
+        </methods>
+      </class> <!-- EtoE.HomePage -->
+      <class name="EtoE.ValidateTitle">
+        <methods>
+          <include name="basePageNavigation"/>
+          <include name="initilize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- EtoE.ValidateTitle -->
+    </classes>
+  </test> <!-- Validating the title in page(failed) -->
+</suite> <!-- Failed suite [Suite] -->
